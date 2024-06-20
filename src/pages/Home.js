@@ -1,10 +1,9 @@
 import NavBar from "../components/NavBar";
-import {Link} from "react-router-dom"; 
-import "/Users/juliewang/Desktop/projects/websites/ez-ed/src/styles/styles.css"
+import { Link } from "react-router-dom";
+import "../styles/styles.css";
 
-export default function Home(){
-
-    return(
+export default function Home() {
+    return (
         <div>
             <NavBar />
 
@@ -14,21 +13,21 @@ export default function Home(){
                     <div className="action-learn-more">
                         <h1>Learn More</h1>
                         <p className="actions-text">
-                            Learn about the rampant healthcare disparities 
-                            worldwide regarding atopic dermatitis. 
+                            Learn about the rampant healthcare disparities
+                            worldwide regarding atopic dermatitis.
                         </p>
                     </div>
                     <div className="action-get-help">
                         <h1>Get Help</h1>
                         <p className="actions-text">
-                            Identify atopic dermatitis using AI or take a 
-                            questionnaire to better understand  symptoms
+                            Identify atopic dermatitis using AI or take a
+                            questionnaire to better understand symptoms
                         </p>
                     </div>
                     <div className="action-give-back">
                         <h1>Give Back</h1>
                         <p className="actions-text">
-                            Find organizations to donate to, or participate in 
+                            Find organizations to donate to, or participate in
                             clinical trials to further research
                         </p>
                     </div>
@@ -36,7 +35,6 @@ export default function Home(){
             </div>
 
             <div className="gradient"></div>
-            
         </div>
-    )
+    );
 }
