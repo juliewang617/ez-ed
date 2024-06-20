@@ -1,0 +1,128 @@
+/* NavBar */
+
+nav{
+    display: flex; 
+    flex-direction: row; 
+    background-color: #112D8F; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 0 4rem; 
+    height: 4rem; 
+}
+.nav-link-container {
+    display: flex; 
+}
+.nav-link {
+    text-decoration: none; 
+    color: white; 
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    text-align: right; 
+}
+.hamburger-menu {
+    display: none;
+}
+  
+@media (max-width: 700px){
+    nav {
+        align-items:flex-start; 
+    }
+    .nav-link-container {
+        flex-direction: column; 
+        background-color: #112D8F;
+        padding: 1rem; 
+        border-radius: 5px; 
+        display: none; 
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer; 
+        margin: 1.5rem 1rem 0;  
+    }
+    .hamburger-menu .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 0 5px;
+        border-radius: 5px; 
+        align-self: flex-end; 
+    }
+
+    .nav-link {
+        align-self: center; 
+        margin: 1rem;
+    }
+}
+
+/* Home */ 
+
+.hero-container {
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    background-color: lightgray; 
+    height: 40rem; 
+}
+
+.gradient {
+    background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, .1) 40%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, 1) 100%) repeat scroll 0 0;
+    position: relative;
+    margin-top: -200px;
+    height: 200px;
+
+}
+
+.title {
+    font-weight: bold; 
+    font-size: 3.5rem;
+    color: #112D8F;
+}
+
+.actions-container{
+    display: flex; 
+    flex-direction: row; 
+}
+
+h1{
+    color: white; 
+    font-size: 1.5rem; 
+}
+
+.actions-text {
+    color: white; 
+    margin: 0 1rem 0 1rem; 
+}
+
+.action-learn-more {
+    background-color: #0A7CE4; 
+    width: 12rem; 
+    margin: 5rem 2rem 2rem 0; 
+    border-radius: 10px; 
+    height: 12rem; 
+    text-align: center; 
+}
+
+.action-get-help {
+    background-color:#6BB808;
+    width: 12rem; 
+    margin: 5rem 2rem 2rem 0; 
+    border-radius: 10px; 
+    height: 12rem; 
+    text-align: center; 
+}
+
+.action-give-back {
+    background-color: #0CB4BF;
+    width: 12rem; 
+    margin: 5rem 2rem 2rem 0; 
+    border-radius: 10px; 
+    height: 12rem; 
+    text-align: center; 
+}
+
+@media (max-width: 700px){
+
+}
