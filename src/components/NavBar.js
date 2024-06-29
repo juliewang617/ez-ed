@@ -20,7 +20,7 @@ export default function NavBar() {
     return (
         <div>
             <nav>
-                <Link className="nav-link" to="/">
+                <Link className="nav-link-title" to="/">
                     Ez-Ed
                 </Link>
 

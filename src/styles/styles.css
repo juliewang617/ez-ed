@@ -12,6 +12,18 @@ nav{
 .nav-link-container {
     display: flex; 
 }
+.nav-link-title {
+    font-weight: bold; 
+    text-decoration: none; 
+    color: white; 
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    text-align: right; 
+
+}
+.nav-link-title:hover{
+    opacity: 80%; 
+}
 .nav-link {
     text-decoration: none; 
     color: white; 
@@ -19,6 +31,10 @@ nav{
     margin-right: 1rem; 
     text-align: right; 
 }
+.nav-link:hover {
+    opacity: 80%; 
+}
+
 .hamburger-menu {
     display: none;
 }
@@ -54,6 +70,23 @@ nav{
         align-self: center; 
         margin: 1rem;
     }
+
+    .nav-link-title {
+        align-self: center; 
+    }
+}
+
+/* Footer */ 
+
+.footer {
+    height: 4rem; 
+    width: 100%; 
+    background-color: #112D8F;
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    align-items: center; 
 }
 
 /* Home */ 
@@ -94,12 +127,17 @@ nav{
     flex-direction: row; 
 }
 
-h1{
+.white-h1{
     color: white; 
     font-size: 1.5rem; 
 }
 
-.actions-text {
+.blue-h1 {
+    color: #112D8F;
+    font-size: 1.5rem; 
+}
+
+.actions-p {
     color: white; 
     margin: 0 1rem 0 1rem; 
 }
@@ -107,67 +145,255 @@ h1{
 .action-learn-more {
     background-color: #0A7CE4; 
     width: 12rem; 
-    margin: 5rem 2rem 2rem 0; 
+    margin: 5rem 1.5rem 2rem 1.5rem; 
     border-radius: 10px; 
     height: 12rem; 
     text-align: center; 
+    z-index: 100; 
+}
+
+.action-learn-more:hover {
+    opacity: 80%; 
 }
 
 .action-get-help {
     background-color:#6BB808;
     width: 12rem; 
-    margin: 5rem 2rem 2rem 0; 
+    margin: 5rem 1.5rem 2rem 1.5rem; 
     border-radius: 10px; 
     height: 12rem; 
     text-align: center; 
+    z-index: 100; 
+}
+
+.action-get-help:hover {
+    opacity: 80%; 
 }
 
 .action-give-back {
     background-color: #0CB4BF;
     width: 12rem; 
-    margin: 5rem 2rem 2rem 0; 
+    margin: 5rem 1.5rem 2rem 1.5rem; 
     border-radius: 10px; 
     height: 12rem; 
-    text-align: center; 
+    text-align: center;
+    z-index: 100;  
+}
+
+.action-give-back:hover {
+    opacity: 80%; 
 }
 
 .scroll-button {
     margin-top: 2rem; 
-    background-color: gray; 
+    background-image: url('../assets/down-arrow.svg'); 
+    background-size: cover; 
+    background-position: center; 
+    width: 3rem;
+    height: 2rem; 
     z-index: 100; 
 }
 
+.scroll-button:hover{
+    opacity: 80%; 
+}
+
 .learn-more-expanded-container {
-    background-color: #D2E1E5;  
-    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    background-color: white;  
     width: 100vw; 
 }
 
 .get-help-expanded-container{
-    background-color: white;  
-    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    background-color: #D2E1E5;  
     width: 100vw; 
 }
 
 .give-help-expanded-container{
-    background-color: #D2E1E5;  
-    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    background-color: white;  
     width: 100vw;  
 }
 
 .column-container{
+    display: block; 
     float: left; 
-    width: 50%; 
+    width: 40%; 
     height: 100%; 
-
+    padding: 2rem; 
 }
 
-@media (max-width: 700px){
+.homepage-image1{
+    background-image: url('../assets/homepage-image1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: auto; 
+    background-color: lightslategray; 
+    width: 80%; 
+    height: 30rem;  
+    border-radius: 10px; 
+}
+
+.homepage-image2{
+    background-image: url('../assets/homepage-image2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: auto; 
+    background-color: lightslategray; 
+    width: 80%; 
+    height: 30rem;  
+    border-radius: 10px; 
+}
+
+.homepage-image3{
+    background-image: url('../assets/homepage-image3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: auto; 
+    background-color: lightslategray; 
+    width: 80%; 
+    height: 30rem;  
+    border-radius: 10px; 
+}
+
+.learn-more-btn{
+    margin: auto;
+    width: 20rem;
+    background-color: #0A7CE4; 
+    color: white; 
+    height: 4rem; 
+    margin-top: 3rem; 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold; 
+}
+
+.learn-more-btn:hover {
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+.get-help-btn{
+    margin: auto;
+    width: 20rem; 
+    background-color: #6BB808; 
+    color: white; 
+    height: 4rem; 
+    margin-top: 3rem; 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold; 
+}
+
+.get-help-btn:hover {
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+.give-help-btn{
+    margin: auto; 
+    width: 20rem; 
+    background-color: #0CB4BF; 
+    color: white; 
+    height: 4rem; 
+    margin-top: 3rem; 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold; 
+}
+
+.give-help-btn:hover {
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+@media (max-width: 800px){
     .title {
         width: 90%; 
         font-size: 5rem; 
     }
     .actions-container{
         display: none; 
+    }
+    .learn-more-expanded-container {
+        flex-direction: column-reverse; 
+        padding: 2rem 0 2rem 0; 
+    }
+    
+    .get-help-expanded-container{
+        flex-direction: column; 
+        padding: 2rem 0 2rem 0;
+    }
+    
+    .give-help-expanded-container{
+        flex-direction: column-reverse; 
+        padding: 2rem 0 2rem 0;
+    }
+    .column-container{
+        align-self: center; 
+        width: 80%;  
+        height: 100%; 
+        padding: 2rem; 
+    }
+    .homepage-image1{
+        height: 20rem; 
+        width: 100%; 
+        margin-bottom: -1.5rem; 
+    }
+    .homepage-image2{
+        height: 20rem; 
+        width: 100%; 
+        margin-bottom: -1.5rem; 
+    }
+    .homepage-image3{
+        height: 20rem; 
+        width: 100%; 
+        margin-bottom: -1.5rem; 
+    }
+}
+
+/* Generic page templates */
+
+.page-heading-section{
+    background-color: #D2E1E5; 
+    height: 12rem; 
+    width: 100vw; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.page-title{
+    color: #112D8F; 
+    margin-bottom: 0.5rem; 
+}
+
+.page-caption{
+    color: #112D8F; 
+    text-align: center; 
+}
+
+.page-body{
+    padding-top: 2rem; 
+    width: 50rem; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+@media (max-width: 900px){
+    .page-body{
+        width: 80%; 
     }
 }

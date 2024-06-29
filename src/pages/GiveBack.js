@@ -4,7 +4,11 @@ export default function GiveBack(){
     return(
         <div>
             <NavBar />
-            <p>Give Back</p>
+            <div className="page-heading-section">
+                <h1 className="page-title">Give Back</h1>
+                <p className="page-caption">See how you can help those with 
+                    atopic dermatitis.</p>
+            </div>
         </div>
     )
 }
