@@ -1,4 +1,7 @@
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import React from "react"; 
+import littleMe from '../assets/little-me.jpg'; 
 
 export default function About(){
     return(
@@ -18,9 +21,9 @@ export default function About(){
                 <p>
                 When Kode with Klossy and Deloitte announced its latest challenge 
                 regarding health equity, I was immediately inspired by my experience 
-                with eczema to create a website dedicated to it. The more I dug, the 
-                more I realized how widespread of an issue A.D. is, and the breadth 
-                of people worldwide who lack access to care for eczema. 
+                with eczema to create a website dedicated to it. The more I researched, the 
+                more I realized how widespread of an issue A.D. is, and the huge scale 
+                of people worldwide who lack access to care to proper eczema care. 
                 </p>
 
                 <p>
@@ -30,7 +33,14 @@ export default function About(){
                 offer guidance in managing and identifying symptoms to lessen 
                 eczema’s impact over their lives. 
                 </p>
+
+                <div className="page-image-caption">
+                    <img src={littleMe} className="page-image-full" alt="Baby me!"/>
+                    <p className="page-caption">Baby me!</p>
+                </div>
             </div>
+
+            <Footer />
         </div>
     )
 }

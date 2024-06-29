@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 export default function GiveBack(){
@@ -9,6 +10,8 @@ export default function GiveBack(){
                 <p className="page-caption">See how you can help those with 
                     atopic dermatitis.</p>
             </div>
+
+            <Footer />
         </div>
     )
 }

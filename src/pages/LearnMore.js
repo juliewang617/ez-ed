@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 export default function LearnMore(){
@@ -9,6 +10,7 @@ export default function LearnMore(){
                 <p className="page-caption">Ridiculus mus mauris vitae ultricies leo. 
                 Viverra vitae congue eu consequat.</p>
             </div>
+            <Footer />
         </div>
     )
 }

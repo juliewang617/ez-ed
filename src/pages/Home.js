@@ -20,21 +20,21 @@ export default function Home() {
 
                 <div className="title">Take Steps Against Ezcema</div>
                 <div className="actions-container">
-                    <div className="action-learn-more">
+                    <div className="action-learn-more" onClick={() => {window.location='/learnmore'}}>
                         <h1 className="white-h1">Learn More</h1>
                         <p className="actions-p">
                             Learn about the rampant healthcare disparities
                             worldwide regarding atopic dermatitis.
                         </p>
                     </div>
-                    <div className="action-get-help">
+                    <div className="action-get-help" onClick={() => {window.location='/getsupport'}}>
                         <h1 className="white-h1">Get Help</h1>
                         <p className="actions-p">
                             Identify atopic dermatitis using AI or take a
                             questionnaire to better understand symptoms.
                         </p>
                     </div>
-                    <div className="action-give-back">
+                    <div className="action-give-back" onClick={() => {window.location='/giveback'}}>
                         <h1 className="white-h1">Give Back</h1>
                         <p className="actions-p">
                             Find organizations to donate to, or participate in
