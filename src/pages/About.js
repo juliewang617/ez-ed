@@ -11,7 +11,7 @@ export default function About(){
                 <h1 className="page-title">About</h1>
             </div>
 
-            <div className="page-body">
+            <div className="page-body-no-flex">
                 <p>
                 As someone who has experienced atopic dermatitis my whole life, I 
                 owe a lot to my dermatologist and family for providing the best 
@@ -27,10 +27,10 @@ export default function About(){
                 </p>
 
                 <p>
-                With Ez-Ed, I hope to educate others on the impacts of eczema and 
+                <b>Ezcema-Educate</b> (Ez-Ed) aims to spread awareness on impact of eczema and 
                 the widespread disparities in access to care. Moreover, for those 
-                with atopic dermatitis, I hope that the tools Ez-Ed provides can 
-                offer guidance in managing and identifying symptoms to lessen 
+                with atopic dermatitis, Ez-Ed 
+                offers guidance in managing and identifying symptoms to lessen 
                 eczema’s impact over their lives. 
                 </p>
 

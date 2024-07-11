@@ -2,6 +2,10 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import React, {useRef} from "react";
 import "../styles/styles.css";
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
+import HandshakeIcon from '@mui/icons-material/Handshake';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function Home() {
 
@@ -19,8 +23,10 @@ export default function Home() {
             <div className="hero-container">
 
                 <div className="title">Take Steps Against Ezcema</div>
+
                 <div className="actions-container">
                     <div className="action-learn-more" onClick={() => {window.location='/learnmore'}}>
+                        <MenuBookIcon style={{ color: 'white', fontSize: 48, marginTop: '1rem'}}/>
                         <h1 className="white-h1">Learn More</h1>
                         <p className="actions-p">
                             Learn about the rampant healthcare disparities
@@ -28,6 +34,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="action-get-help" onClick={() => {window.location='/getsupport'}}>
+                    <AccessibilityNewIcon style={{ color: 'white', fontSize: 48, marginTop: '1rem'}}/>
                         <h1 className="white-h1">Get Help</h1>
                         <p className="actions-p">
                             Identify atopic dermatitis using AI or take a
@@ -35,6 +42,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="action-give-back" onClick={() => {window.location='/giveback'}}>
+                    <HandshakeIcon style={{ color: 'white', fontSize: 48, marginTop: '1rem'}}/>
                         <h1 className="white-h1">Give Back</h1>
                         <p className="actions-p">
                             Find organizations to donate to, or participate in
@@ -77,7 +85,10 @@ export default function Home() {
                     leo. 
                     </p>
 
-                    <div className="learn-more-btn" onClick={() => {window.location='/learnmore'}}>Learn more about A.D.</div>
+                    <div className="learn-more-btn" onClick={() => {window.location='/learnmore'}}>
+                        Learn more about A.D 
+                        <KeyboardArrowRightIcon className="right-arrow"/>
+                    </div>
                     
                 </div>
                 <div className="column-container">
@@ -118,7 +129,10 @@ export default function Home() {
                     leo. 
                     </p>
 
-                    <div className="get-help-btn" onClick={() => {window.location='/getsupport'}}>Use our tools for help</div>
+                    <div className="get-help-btn" onClick={() => {window.location='/getsupport'}}>
+                        Use our tools for help
+                        <KeyboardArrowRightIcon className="right-arrow"/>
+                    </div>
                     
                 </div>
             </div>
@@ -152,7 +166,10 @@ export default function Home() {
                     sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
                     leo. 
                     </p>
-                    <div className="give-help-btn" onClick={() => {window.location='/giveback'}}>How you can help</div>                  
+                    <div className="give-help-btn" onClick={() => {window.location='/giveback'}}>
+                        How you can help
+                        <KeyboardArrowRightIcon className="right-arrow"/>
+                    </div>                  
                 </div>
                 <div className="column-container">
                     <div className="homepage-image3"></div>

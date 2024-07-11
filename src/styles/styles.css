@@ -96,10 +96,10 @@ nav{
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    background-color: #b3b3b3;
     height: 100vh;
     z-index: -100; 
-    background-image: url("https://images.unsplash.com/photo-1584592487914-a29c64f25887?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1345 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(210, 225, 229, 1)" d="M 0 0 C 341.5 0 341.5 110 683 110 L 683 110 L 683 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(210, 225, 229, 1)" d="M 682 110 C 1013.5 110 1013.5 0 1345 0 L 1345 0 L 1345 0 L 682 0 Z" stroke-width="0"></path> </svg>');
+    
     background-position: center; 
     background-size: cover; 
     background-blend-mode:screen; 
@@ -144,44 +144,56 @@ nav{
 
 .action-learn-more {
     background-color: #0A7CE4; 
-    width: 12rem; 
+    width: 16rem; 
     margin: 5rem 1.5rem 2rem 1.5rem; 
     border-radius: 10px; 
-    height: 12rem; 
+    height: 16rem; 
     text-align: center; 
     z-index: 100; 
+    font-size: 1.2rem;
+    box-shadow: 0 10px #D2E1E5; 
 }
 
 .action-learn-more:hover {
-    opacity: 80%; 
+    transition: transform 0.5s ease;
+    transform: translateY(-5px);
+    cursor: pointer; 
 }
 
 .action-get-help {
     background-color:#6BB808;
-    width: 12rem; 
+    width: 16rem; 
     margin: 5rem 1.5rem 2rem 1.5rem; 
     border-radius: 10px; 
-    height: 12rem; 
+    height: 16rem; 
     text-align: center; 
     z-index: 100; 
+    font-size: 1.2rem;
+    box-shadow: 0 10px #D2E1E5; 
 }
 
 .action-get-help:hover {
-    opacity: 80%; 
+    transition: transform 0.5s ease;
+    transform: translateY(-5px);
+    cursor: pointer; 
 }
 
 .action-give-back {
     background-color: #0CB4BF;
-    width: 12rem; 
+    width: 16rem; 
     margin: 5rem 1.5rem 2rem 1.5rem; 
     border-radius: 10px; 
-    height: 12rem; 
+    height: 16rem; 
     text-align: center;
     z-index: 100;  
+    font-size: 1.2rem;
+    box-shadow: 0 10px #D2E1E5; 
 }
 
 .action-give-back:hover {
-    opacity: 80%; 
+    transition: transform 0.5s ease;
+    transform: translateY(-5px);
+    cursor: pointer; 
 }
 
 .scroll-button {
@@ -194,8 +206,9 @@ nav{
     z-index: 100; 
 }
 
-.scroll-button:hover{
-    opacity: 80%; 
+.scroll-button:hover {
+    transition: transform 0.5s ease;
+    transform: translateY(5px);
 }
 
 .learn-more-expanded-container {
@@ -279,6 +292,12 @@ nav{
     opacity: 80%; 
 }
 
+.learn-more-btn:hover .right-arrow {
+    transition: transform 0.5s ease;
+    transform: translateX(5px);
+    cursor: pointer; 
+}
+
 .get-help-btn{
     margin: auto;
     width: 20rem; 
@@ -296,6 +315,12 @@ nav{
 .get-help-btn:hover {
     cursor: pointer; 
     opacity: 80%; 
+}
+
+.get-help-btn:hover .right-arrow {
+    transition: transform 0.5s ease;
+    transform: translateX(5px);
+    cursor: pointer; 
 }
 
 .give-help-btn{
@@ -316,6 +341,13 @@ nav{
     cursor: pointer; 
     opacity: 80%; 
 }
+
+.give-help-btn:hover .right-arrow {
+    transition: transform 0.5s ease;
+    transform: translateX(5px);
+    cursor: pointer; 
+}
+
 
 @media (max-width: 800px){
     .title {
@@ -366,7 +398,7 @@ nav{
 
 .page-heading-section{
     background-color: #D2E1E5; 
-    height: 12rem; 
+    height: 14rem; 
     width: 100vw; 
     display: flex;
     flex-direction: column; 
@@ -379,17 +411,22 @@ nav{
     margin-bottom: 0.5rem; 
 }
 
-.page-caption{
-    color: #112D8F; 
-    text-align: center; 
-}
-
-.page-body{
+.page-body-no-flex{
     padding-top: 2rem; 
     width: 50rem; 
     margin: auto; 
+    margin-bottom: 5rem; 
+    min-height: 50vh; 
+}
+
+.page-body-flex{
     display: flex; 
     flex-direction: column; 
+    padding-top: 2rem; 
+    width: 50rem; 
+    margin: auto; 
+    margin-bottom: 5rem; 
+    min-height: 50vh; 
 }
 
 .page-image-caption {
@@ -411,12 +448,128 @@ nav{
 
 .page-caption {
     text-align: center; 
-    color: gray; 
+    color: slategray; 
     font-size: 0.9rem; 
+    padding: 0 2rem 0 2rem; 
+}
+
+.centered-text {
+    text-align: center; 
 }
 
 @media (max-width: 900px){
     .page-body{
         width: 80%; 
     }
+}
+
+/* Get Support Page */
+
+.identifier-btn{
+    font-size: 1.25rem; 
+    margin: auto;
+    width: 30rem;
+    background-color: #0CB4BF;  
+    color: white; 
+    height: 4rem; 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold; 
+    margin-bottom: 2rem; 
+}
+
+.identifier-btn:hover {
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+.questionaire-btn{
+    font-size: 1.25rem; 
+    margin: auto;
+    width: 30rem; 
+    background-color: #6BB808; 
+    color: white; 
+    height: 4rem; 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold; 
+}
+
+.questionaire-btn:hover {
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+.tips-container {
+    margin-top: 2rem; 
+    padding: 1rem; 
+    border-radius: 10px; 
+    background-color: #D2E1E5; 
+}
+
+/* Questionaire Page */
+
+.questionaire-next-btn { 
+    display: flex; 
+    background-color: #112D8F; 
+    border-style: none; 
+    color: white; 
+    font-weight: bold; 
+    width: 10rem;
+    margin: auto; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px; 
+    height: 2rem; 
+    margin-top: 2rem; 
+}
+
+.questionaire-next-btn:hover{
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+.questionaire-retake-btn { 
+    display: none;
+    background-color: transparent; 
+    border-style: none; 
+    color: #112D8F; 
+    font-weight: bold; 
+    font-size: 1.25rem; 
+    width: 10rem;
+    margin: auto; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px; 
+    height: 2rem; 
+}
+
+.questionaire-retake-btn:hover{
+    cursor: pointer; 
+    opacity: 80%; 
+}
+
+form {
+    margin: auto; 
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+} 
+
+.results { 
+    display: none; 
+    font-size: 1.5rem; 
+}
+
+.score-meaning-container {
+    display: none; 
+    text-align: left; 
+    background-color: #D2E1E5; 
+    border-radius: 5px; 
+    width: 20rem; 
+    padding: 0.25rem; 
 }
