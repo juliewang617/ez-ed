@@ -50,6 +50,7 @@ nav{
         position: relative; 
         z-index: 10; 
         align-items:flex-start; 
+        padding: 0 2rem 0 2rem; 
     }
     .nav-link-container {
         flex-direction: column; 
@@ -360,7 +361,7 @@ nav{
 @media (max-width: 800px){
     .title {
         width: 90%; 
-        font-size: 5rem; 
+        font-size: 4rem; 
     }
     .actions-container{
         display: none; 
