@@ -34,7 +34,7 @@ export default function NavBar() {
                         <div className="bar"></div>
                     </div>
                     <div className="nav-link-container">
-                        <Link className="nav-link" to="/about">
+                        <Link className={["nav-link"]} to="/about">
                             About
                         </Link>
                         <Link className="nav-link" to="/learnmore">
