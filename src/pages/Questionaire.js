@@ -70,13 +70,18 @@ export default function Questionaire(){
                 <h1 className="page-title">Questionaire</h1>
                 <p className="page-caption">Take this short questionaire, 
                     suitable for all ages, to learn more about your systems. 
-                    
-                    Source: University of Nottingham's Centre of Evidence Based 
-                    Dermatology
                 </p>
             </div>
 
             <form className="page-body-flex">
+                <div>
+                    <p>
+                    This questionnaire is adapted from the Patient-Oriented
+                     Eczema Measure <a href="https://www.nottingham.ac.uk/research/groups/cebd/resources/poem.aspx">(POEM)</a> from the University of Nottingham. 
+                     It is suited for both adults and children to determine 
+                     eczema severity. 
+                    </p>
+                </div>
                 <p className="results"></p>
                 <p><b>{questions[index]}</b></p>
 

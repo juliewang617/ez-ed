@@ -43,8 +43,8 @@ export default function NavBar() {
                         <Link className="nav-link" to="/getsupport">
                             Get Support
                         </Link>
-                        <Link className="nav-link" to="/giveback">
-                            Give Back
+                        <Link className="nav-link" to="/whatyoucando">
+                            What You Can Do
                         </Link>
                     </div>
                 </div>

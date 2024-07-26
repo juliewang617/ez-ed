@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import React, {useRef} from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "../styles/styles.css";
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
@@ -9,7 +9,66 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function Home() {
 
-    const learnMoreSection = useRef(null); 
+    const learnMoreSection = useRef(null);
+
+    const [typedWordIndex, setTypedWordIndex] = useState(0); 
+
+    const typedWord = [
+        "Ezcema", 
+        "Ezcem",
+        "Ezce", 
+        "Ezc",
+        "Ez",
+        "E",
+        "", 
+        "A", 
+        "At",
+        "Ato",
+        "Atop",
+        "Atopi",
+        "Atopic",
+        "Atopic ",
+        "Atopic D",
+        "Atopic De",
+        "Atopic Der",
+        "Atopic Derm",
+        "Atopic Derma",
+        "Atopic Dermat",
+        "Atopic Dermati",
+        "Atopic Dermatit",
+        "Atopic Dermatiti",
+        "Atopic Dermatitis",
+        "Atopic Dermatiti",
+        "Atopic Dermatit",
+        "Atopic Dermati",
+        "Atopic Dermat",
+        "Atopic Derma",
+        "Atopic Derm",
+        "Atopic Der",
+        "Atopic De",
+        "Atopic D",
+        "Atopic ",
+        "Atopic",
+        "Atopi",
+        "Atop",
+        "Ato",
+        "At",
+        "A",
+        "",
+        "E", 
+        "Ez", 
+        "Ezc",
+        "Ezce", 
+        "Ezcem", 
+    ]
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTypedWordIndex(i => i === typedWord.length - 1 ? 0 : i + 1); 
+        }, typedWordIndex === 0 || typedWordIndex === 23 ? 1500 : 150)
+
+        return () => clearInterval(interval); 
+    })
 
     const scrollTo = () => {
         console.log("hello")
@@ -22,7 +81,7 @@ export default function Home() {
 
             <div className="hero-container">
 
-                <div className="title">Take Steps Against Ezcema</div>
+                <div className="title">Take Steps Against {typedWord[typedWordIndex]}</div>
 
                 <div className="actions-container">
                     <div className="action-learn-more" onClick={() => {window.location='/learnmore'}}>
@@ -41,7 +100,7 @@ export default function Home() {
                             questionnaire to better understand symptoms.
                         </p>
                     </div>
-                    <div className="action-give-back" onClick={() => {window.location='/giveback'}}>
+                    <div className="action-give-back" onClick={() => {window.location='/whatyoucando'}}>
                     <HandshakeIcon style={{ color: 'white', fontSize: 48, marginTop: '1rem'}}/>
                         <h1 className="white-h1">Give Back</h1>
                         <p className="actions-p">
@@ -57,34 +116,26 @@ export default function Home() {
 
             <div className="learn-more-expanded-container" ref={learnMoreSection}>
                 <div className="column-container">
-                    <h1 className="blue-h1">Insert very disturbing fact about atopic dermatitis</h1>
+                    <h1 className="blue-h1">African American children are nearly 
+                        twice more likely to develop eczema than white children.</h1>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Id volutpat lacus laoreet non curabitur gravida arcu. Amet 
-                    consectetur adipiscing elit ut. 
+                    Atopic dermatitis, also known as eczema, is a chronic skin 
+                    condition causing inflammation, redness, and itchiness. The 
+                    condition impacts over 170 million people worldwide. 
+                    </p>
+                    <p>
+                    Significant disparities exist based on race and income: Black, 
+                    Latino, and Asian individuals in the USA are more likely to 
+                    develop severe AD and face greater challenges in managing it
+                    due to structural and environmental factors. Black children 
+                    are nearly twice as likely to develop AD as white children.
+                    </p>
+                    <p>
+                     Moreover, Low-income individuals, including refugees and 
+                     migrants, often experience aggravated symptoms due to poor 
+                     living conditions and limited access to healthcare. 
                     </p>
                     
-                    <p>
-                    Ipsum suspendisse ultrices 
-                    gravida dictum fusce ut placerat. Amet est placerat in 
-                    egestas erat imperdiet sed. Nisl purus in mollis nunc sed id 
-                    semper risus. Erat pellentesque adipiscing commodo elit at
-                    imperdiet dui. Ipsum faucibus vitae aliquet nec ullamcorper 
-                    sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
-                    leo. 
-                    </p>
-
-                    <p>
-                    Ipsum suspendisse ultrices 
-                    gravida dictum fusce ut placerat. Amet est placerat in 
-                    egestas erat imperdiet sed. Nisl purus in mollis nunc sed id 
-                    semper risus. Erat pellentesque adipiscing commodo elit at
-                    imperdiet dui. Ipsum faucibus vitae aliquet nec ullamcorper 
-                    sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
-                    leo. 
-                    </p>
-
                     <div className="learn-more-btn" onClick={() => {window.location='/learnmore'}}>
                         Learn more about A.D 
                         <KeyboardArrowRightIcon className="right-arrow"/>
@@ -103,30 +154,18 @@ export default function Home() {
                 <div className="column-container">
                     <h1 className="blue-h1">Ez-Ed Makes Getting Help Easier</h1>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Id volutpat lacus laoreet non curabitur gravida arcu. Amet 
-                    consectetur adipiscing elit ut. 
+                        To help reduce disparities, Ez-Ed aims to improve accessibility 
+                        by providing helpful resources. Take our symptoms 
+                        questionaire, or use our AI-based tool to identify images 
+                        of skin conditions. 
                     </p>
                     
                     <p>
-                    Ipsum suspendisse ultrices 
-                    gravida dictum fusce ut placerat. Amet est placerat in 
-                    egestas erat imperdiet sed. Nisl purus in mollis nunc sed id 
-                    semper risus. Erat pellentesque adipiscing commodo elit at
-                    imperdiet dui. Ipsum faucibus vitae aliquet nec ullamcorper 
-                    sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
-                    leo. 
-                    </p>
-
-                    <p>
-                    Ipsum suspendisse ultrices 
-                    gravida dictum fusce ut placerat. Amet est placerat in 
-                    egestas erat imperdiet sed. Nisl purus in mollis nunc sed id 
-                    semper risus. Erat pellentesque adipiscing commodo elit at
-                    imperdiet dui. Ipsum faucibus vitae aliquet nec ullamcorper 
-                    sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
-                    leo. 
+                        Besides using our tools, individuals impacted by atopic
+                        dermatitis can better understand their symptoms and follow 
+                        various at-home treatments to treat their condition. 
+                        Please note that these tools should not act as replacement 
+                        for visiting a healthcare professional if you are able to. 
                     </p>
 
                     <div className="get-help-btn" onClick={() => {window.location='/getsupport'}}>
@@ -139,34 +178,26 @@ export default function Home() {
 
             <div className="give-help-expanded-container">
                 <div className="column-container">
-                    <h1 className="blue-h1">Join the Fight Against Eczema</h1>
+                    <h1 className="blue-h1">Join the Fight Against Health Inequity</h1>
+
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Id volutpat lacus laoreet non curabitur gravida arcu. Amet 
-                    consectetur adipiscing elit ut. 
-                    </p>
-                    
-                    <p>
-                    Ipsum suspendisse ultrices 
-                    gravida dictum fusce ut placerat. Amet est placerat in 
-                    egestas erat imperdiet sed. Nisl purus in mollis nunc sed id 
-                    semper risus. Erat pellentesque adipiscing commodo elit at
-                    imperdiet dui. Ipsum faucibus vitae aliquet nec ullamcorper 
-                    sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
-                    leo. 
+                        Despite atopic dermatitis's prevalence, more should be 
+                        done in advancing research and treatment efforts to improve 
+                        the lives of millions worldwide. Specifically, research 
+                        should also be done towards improving health equity to 
+                        ensure that everyone has access to effective resources to 
+                        manage their condition. 
                     </p>
 
                     <p>
-                    Ipsum suspendisse ultrices 
-                    gravida dictum fusce ut placerat. Amet est placerat in 
-                    egestas erat imperdiet sed. Nisl purus in mollis nunc sed id 
-                    semper risus. Erat pellentesque adipiscing commodo elit at
-                    imperdiet dui. Ipsum faucibus vitae aliquet nec ullamcorper 
-                    sit amet risus nullam. Ridiculus mus mauris vitae ultricies 
-                    leo. 
+                        While the task at hand seems overwhelming, individual support 
+                        is crucial towards making progress. From participating in 
+                        clinical trials to donating to organizations to even 
+                        simply becoming more aware of atopic dermatitis and 
+                        its health disparities, you can work towards a better 
+                        future for millions. 
                     </p>
-                    <div className="give-help-btn" onClick={() => {window.location='/giveback'}}>
+                    <div className="give-help-btn" onClick={() => {window.location='/whatyoucando'}}>
                         How you can help
                         <KeyboardArrowRightIcon className="right-arrow"/>
                     </div>                  

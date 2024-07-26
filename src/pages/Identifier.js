@@ -107,7 +107,8 @@ export default function Identifier(){
                     To use the model, simply upload a clear image of the impacted skin. 
                     The model will return the probability (confidence) of each classification, and 
                     highlight the one with the highest probability at the top.
-                    Note that the model may not be entirely accurate.  
+                    Note that the model may be inaccurate and <b>should not 
+                        be considered as a diagnosis.</b>  
                     </p>
                 </div>
 

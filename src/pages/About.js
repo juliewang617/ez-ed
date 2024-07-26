@@ -13,7 +13,7 @@ export default function About(){
 
             <div className="page-body-no-flex">
                 <p>
-                As someone who has experienced atopic dermatitis my whole life, I 
+                As someone who has experienced atopic and sebhorreic dermatitis my whole life, I 
                 owe a lot to my dermatologist and family for providing the best 
                 possible care for me to manage my condition to a stable point. 
                 </p>
@@ -21,7 +21,7 @@ export default function About(){
                 <p>
                 When Kode with Klossy and Deloitte announced its latest challenge 
                 regarding health equity, I was immediately inspired by my experience 
-                with eczema to create a website dedicated to it. The more I researched, the 
+                with eczema to create a website dedicated to its impacts. The more I researched, the 
                 more I realized how widespread of an issue A.D. is, and the huge scale 
                 of people worldwide who lack access to care to proper eczema care. 
                 </p>

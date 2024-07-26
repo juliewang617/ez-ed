@@ -8,7 +8,7 @@ import About from "./pages/About";
 import LearnMore from "./pages/LearnMore";
 import Home from "./pages/Home";
 import GetSupport from "./pages/GetSupport";
-import GiveBack from "./pages/GiveBack";
+import WhatYouCanDo from "./pages/WhatYouCanDo";
 import Questionaire from "./pages/Questionaire";
 import Identifier from "./pages/Identifier";
 
@@ -22,7 +22,7 @@ export default function App(){
           <Route path="/getsupport" element={<GetSupport />}/>
           <Route path="/questionaire" element={<Questionaire />}/>
           <Route path="/identifier" element={<Identifier />}/>
-          <Route path="/giveback" element={<GiveBack />}/>
+          <Route path="/whatyoucando" element={<WhatYouCanDo />}/>
         </Routes>
     </BrowserRouter>
   )
