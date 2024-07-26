@@ -156,7 +156,7 @@ export default function Home() {
                     <p>
                         To help reduce disparities, Ez-Ed aims to improve accessibility 
                         by providing helpful resources. Take our symptoms 
-                        questionaire, or use our AI-based tool to identify images 
+                        questionnaire, or use our AI-based tool to identify images 
                         of skin conditions. 
                     </p>
                     
@@ -181,18 +181,17 @@ export default function Home() {
                     <h1 className="blue-h1">Join the Fight Against Health Inequity</h1>
 
                     <p>
-                        Despite atopic dermatitis's prevalence, more should be 
+                        Despite atopic dermatitis's prevalence, more must be 
                         done in advancing research and treatment efforts to improve 
-                        the lives of millions worldwide. Specifically, research 
-                        should also be done towards improving health equity to 
-                        ensure that everyone has access to effective resources to 
+                        the lives of millions worldwide. Specifically, improving health equity
+                        ensures that everyone has access to effective resources to 
                         manage their condition. 
                     </p>
 
                     <p>
                         While the task at hand seems overwhelming, individual support 
                         is crucial towards making progress. From participating in 
-                        clinical trials to donating to organizations to even 
+                        clinical trials to donating to organizations to
                         simply becoming more aware of atopic dermatitis and 
                         its health disparities, you can work towards a better 
                         future for millions. 

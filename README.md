@@ -4,7 +4,7 @@ When Kode with Klossy and Deloitte announced its health equity challenge, I was 
 
 ## Features
 * Interactive Machine Learning Tool: built with Google's Teachable Machine, Ez-Ed's ML tool can identify various skin conditions, including atopic dermatitis.
-* Symptoms Questionaire: the site includes a simple questionnaire for users to better understand symptoms.
+* Symptoms Questionnaire: the site includes a simple questionnaire for users to better understand symptoms.
 
 ## Technologies and Frameworks Used 
 * React.js, Javascript, HTML, CSS, Teachable Machine, Tensorflow.js

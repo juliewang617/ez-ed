@@ -135,7 +135,7 @@ export default function LearnMore(){
                             AD triggers, such as dust mites or smoke.
                         </li>
                         <li>
-                            <b>Education Inequality:</b> People without understanding 
+                            <b>Education Inequality:</b> People without an understanding 
                             of eczema may use incorrect medications/treatments 
                             or not follow through on treatment. 
                         </li>
@@ -147,7 +147,7 @@ export default function LearnMore(){
                        Improving access to atopic dermatitis care is a crucial
                        aspect towards health equity because it ensures that 
                        all patients, regardless of their socio-economic status, 
-                       race, or environment, have acces to effective care for 
+                       race, or environment, have access to effective care for 
                        their condition. 
                     </p>
                     <p>

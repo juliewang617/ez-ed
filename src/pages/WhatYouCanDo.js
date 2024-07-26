@@ -18,7 +18,7 @@ export default function WhatYouCanDo(){
                 <p>
                     Atopic dermatitis impacts hundreds of millions of individuals 
                     worldwide, but its impact is not uniform. Significant
-                    disparities exist based on race, socio-economic status, 
+                    disparities exist based on race, socioeconomic status, 
                     mental health, and more. For instance, Black, Latino, and 
                     Asian individuals are more likely to develop severe forms of 
                     eczema in the US and also face greater challenges in 
@@ -40,7 +40,7 @@ export default function WhatYouCanDo(){
 
                 <h2>How You Can Make a Difference</h2>
 
-                <h3>1. Educate yourself more about Ezcema</h3>
+                <h3>1. Educate yourself more about Eczema</h3>
                 <p>
                     The <a href="/learnmore">Learn More</a> page provides an 
                     overview about atopic dermatitis, its symptoms, impacts, and 
@@ -58,9 +58,9 @@ export default function WhatYouCanDo(){
                 </p>
 
 
-                <h3>2. Contribute to clincial trials</h3>
+                <h3>2. Contribute to Clinical Trials</h3>
                 <p>
-                    By participating in ezcema-related clincial trials, you 
+                    By participating in eczema-related clinical trials, you 
                     directly contribute to research that can lead to new 
                     treatments and a deeper understanding of A.D. 
                 </p>
@@ -71,15 +71,15 @@ export default function WhatYouCanDo(){
                 </blockquote>
                 <p>
                     Despite racial minorities being more likely to develop 
-                    AD, they have historically been underrepresented in ezcema-related 
+                    AD, they have historically been underrepresented in eczema-related 
                     clinical trials. Recent analyses of trials related to 
                     skin conditions like AD have shown that white people  
-                    have made up more of three-quarters of participants. 
+                    have made up more than three-quarters of participants. 
                 </p>
                 <p>
                     AD can vary widely from person to person. 
                     Diversity in clinical trials can help healthcare professionals and 
-                    researchers better understand potential treatments towards 
+                    researchers better understand potential treatments for
                     a greater spread of people, allowing for improvements 
                     such as earlier detection or improved treatment options.
                 </p>
@@ -104,7 +104,7 @@ export default function WhatYouCanDo(){
                     dedicated to improving outcomes for people with eczema by 
                     spreading awareness and funding research.</li> 
                     <li><b><a href="https://www.gper.org/giving">
-                    GPER</a></b> (Global parents for Eczema Research) is the 
+                    GPER</a></b> (Global Parents for Eczema Research) is the 
                     only global non-profit dedicated to supporting children 
                     with eczema.</li>
                 </ul>

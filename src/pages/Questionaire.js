@@ -67,8 +67,8 @@ export default function Questionaire(){
         <div>
             <NavBar/>
             <div className="page-heading-section">
-                <h1 className="page-title">Questionaire</h1>
-                <p className="page-caption">Take this short questionaire, 
+                <h1 className="page-title">Questionnaire</h1>
+                <p className="page-caption">Take this short questionnaire, 
                     suitable for all ages, to learn more about your systems. 
                 </p>
             </div>

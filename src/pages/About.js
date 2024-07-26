@@ -13,7 +13,7 @@ export default function About(){
 
             <div className="page-body-no-flex">
                 <p>
-                As someone who has experienced atopic and sebhorreic dermatitis my whole life, I 
+                As someone who has experienced atopic and seborrheic dermatitis my whole life, I 
                 owe a lot to my dermatologist and family for providing the best 
                 possible care for me to manage my condition to a stable point. 
                 </p>
@@ -27,11 +27,11 @@ export default function About(){
                 </p>
 
                 <p>
-                <b>Ezcema-Educate</b> (Ez-Ed) aims to spread awareness on impact of eczema and 
+                <b>Ezcema-Educate</b> (Ez-Ed) aims to spread awareness on the impact of eczema and 
                 the widespread disparities in access to care. Moreover, for those 
                 with atopic dermatitis, Ez-Ed 
                 offers guidance in managing and identifying symptoms to lessen 
-                eczema’s impact over their lives. 
+                eczema’s impact on their lives. 
                 </p>
 
                 <div className="page-image-caption">

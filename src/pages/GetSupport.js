@@ -17,16 +17,16 @@ export default function GetSupport(){
                     Eczema Identifier
                 </div>
 
-                <p className="centered-text"> Take our symptoms questionaire to understand your symptoms. </p>
+                <p className="centered-text"> Take our symptoms questionnaire to understand your symptoms. </p>
                 <div className="questionaire-btn" onClick={() => window.location="/questionaire"}>
-                    Symptoms Questionaire
+                    Symptoms Questionnaire
                 </div>
 
                 <div className="tips-container">
                     <h2 style={{textAlign: 'center'}}>Tips to Manage Symptoms </h2>
                     <p style={{textAlign: 'center'}}>If you have access to care, you and your doctor should 
                         discuss treatment options for your atopic dermatitis. Here are some 
-                        at-home tips to manage symptoms. (Source: National Instute of Allergy and Infectious Diseases)
+                        at-home tips to manage symptoms. (Source: National Institute of Allergy and Infectious Diseases)
                     </p>
 
                     <ul>
@@ -52,7 +52,7 @@ export default function GetSupport(){
                         <li>
                             When washing, do not scrub or dry the skin too hard or 
                             for too long. Apply moisturizer to trap moisture in the skin 
-                            afterwards. 
+                            afterward. 
                         </li>
 
                     </ul>
