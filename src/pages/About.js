@@ -27,8 +27,8 @@ export default function About() {
           regarding health equity, I was immediately inspired by my experience
           with eczema to create a website dedicated to its impacts. The more I
           researched, the more I realized how widespread of an issue A.D. is,
-          and the huge scale of people worldwide who lack access to care to
-          proper eczema care.
+          and the huge scale of people worldwide who lack access to proper
+          eczema care.
         </p>
 
         <p>
