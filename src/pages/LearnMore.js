@@ -54,40 +54,40 @@ export default function LearnMore() {
         />
 
         <div>
-          <h2>Burdens and Inequities Linked to AD</h2>
+          <h2>Burdens and Inequities Linked to A.D.</h2>
 
           <h3>Mental Health and Social Isolation</h3>
           <p>
             Research suggests a link between mental health and eczema. Adults
-            with AD have a higher risk for anxiety and depression which
-            increases with disease severity. Moreover, individuals with AD are
+            with A.D. have a higher risk for anxiety and depression which
+            increases with disease severity. Moreover, individuals with A.D. are
             up to 44% more likely to exhibit suicidal ideation, and 36% more
             likely to attempt suicide.
           </p>
           <blockquote>
-            Approximately 40% of school-aged children faced bullying due to AD.
+            Approximately 40% of school-aged children faced bullying due to A.D.
           </blockquote>
           <p>
             Adolescents and young adults with eczema often feel isolated;
-            children with severe AD have fewer friends on average and spend more
-            time alone than children with moderate AD. Approximately 40% of
-            children and teenagers with AD experienced bullying due to their
-            condition.
+            children with severe A.D. have fewer friends on average and spend
+            more time alone than children with moderate A.D. Approximately 40%
+            of children and teenagers with A.D. experienced bullying due to
+            their condition.
           </p>
 
           <h3>Race Disparities</h3>
           <p>
             <blockquote>
-              African American children with AD are six times more likely to
-              have severe AD than white children.
+              African American children with A.D. are six times more likely to
+              have severe A.D. than white children.
             </blockquote>
             Studies have shown that atopic dermatitis impacts certain
             populations more than others. Black, Latino, and Asian Americans are
-            more likely to visit their doctor for AD than white people in the
-            USA. Black children are nearly twice as likely to develop AD than
+            more likely to visit their doctor for A.D. than white people in the
+            USA. Black children are nearly twice as likely to develop A.D. than
             white children, even after controlling for possible confounders.
-            Moreover, black children with AD are six times more likely to have
-            severe AD than their white counterparts. These disparities are
+            Moreover, black children with A.D. are six times more likely to have
+            severe A.D. than their white counterparts. These disparities are
             likely multifactorial as a result of structural, environmental, and
             interpersonal systemic racism.
           </p>
@@ -99,22 +99,22 @@ export default function LearnMore() {
             humidity, mold growth, poor ventilation, infestation, and
             overcrowding. Studies have also shown that poor hygiene, lack of
             access to sanitation, and overcrowding can also aggravate symptoms
-            in patients with AD.
+            in patients with A.D.
           </p>
           <blockquote>
-            The average cost of treatment for eczema is too high for 3 billion
-            people worldwide living on less than three dollars a day.
+            The average cost of treatment for eczema is too high for the 3
+            billion people worldwide living on less than three dollars a day.
           </blockquote>
           <p>
             Out-of-pocket expenses for treating eczema have a significant impact
-            on personal finances for 24.5% of people with AD, with total direct
-            costs averaging $11,660 per AD patient. For the 47% of people
-            worldwide at or below the poverty line, finding affordable care is
-            virtually impossible.
+            on personal finances for 24.5% of people with A.D., with total
+            direct costs averaging $11,660 per A.D. patient. For the 47% of
+            people worldwide at or below the poverty line, finding affordable
+            care is virtually impossible.
           </p>
         </div>
 
-        <h3>Factors that lead to AD Disparities</h3>
+        <h3>Factors that lead to A.D. Disparities</h3>
         <ul>
           <li>
             <b>Access to care: </b> patients lacking transportation can miss
@@ -126,7 +126,7 @@ export default function LearnMore() {
           </li>
           <li>
             <b>Environmental Triggers:</b> Individuals in areas with low-quality
-            housing may be exposed to more AD triggers, such as dust mites or
+            housing may be exposed to more A.D. triggers, such as dust mites or
             smoke.
           </li>
           <li>
@@ -137,7 +137,7 @@ export default function LearnMore() {
         </ul>
 
         <div>
-          <h2>The Importance of Healthy Equity Regarding AD</h2>
+          <h2>The Importance of Healthy Equity Regarding A.D.</h2>
           <p>
             Improving access to atopic dermatitis care is a crucial aspect
             towards health equity because it ensures that all patients,

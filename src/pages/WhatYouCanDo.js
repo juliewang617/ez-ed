@@ -50,11 +50,11 @@ export default function WhatYouCanDo() {
         <p>
           The <a href="/learnmore">Learn More</a> page provides an overview
           about atopic dermatitis, its symptoms, impacts, and related healthcare
-          inequities. If you would like to learn more, consider visiting the The{" "}
+          inequities. If you would like to dive deeper, consider visiting the{" "}
           <a href="/learnmore">Sources</a> section at the bottom, which contains
-          highly informational websites and journals. You can also visit the
-          following sites, which contain more information on treatments and have
-          informational newsletters.
+          informational websites and journals. You can also visit the following
+          sites, which elaborate more on A.D. treatments and have informational
+          newsletters.
           <ul>
             <li>
               <a href="https://nationaleczema.org/">
@@ -71,26 +71,27 @@ export default function WhatYouCanDo() {
 
         <h3>2. Contribute to Clinical Trials</h3>
         <p>
-          By participating in eczema-related clinical trials, you directly
+          By participating in eczema-related clinical trials, you can directly
           contribute to research that can lead to new treatments and a deeper
           understanding of A.D.
         </p>
         <blockquote>
-          In clinical trials related to skin conditions like AD, white people
+          In clinical trials related to skin conditions like A.D., white people
           have made up over three-quarters of participants.
         </blockquote>
         <p>
-          Despite racial minorities being more likely to develop AD, they have
+          Despite racial minorities being more likely to develop A.D., they have
           historically been underrepresented in eczema-related clinical trials.
-          Recent analyses of trials related to skin conditions like AD have
+          Recent analyses of trials related to skin conditions like A.D. have
           shown that white people have made up more than three-quarters of
           participants.
         </p>
         <p>
-          AD can vary widely from person to person. Diversity in clinical trials
-          can help healthcare professionals and researchers better understand
-          potential treatments for a greater spread of people, allowing for
-          improvements such as earlier detection or improved treatment options.
+          A.D. can vary widely from person to person. Diversity in clinical
+          trials can help healthcare professionals and researchers better
+          understand potential treatments for a greater spread of people,
+          allowing for improvements such as earlier detection or improved
+          treatment options.
         </p>
         <blockquote>
           To find nearby clinical trials to participate in, visit this{" "}
@@ -102,7 +103,7 @@ export default function WhatYouCanDo() {
 
         <h3>3. Financial Support</h3>
         <p>
-          Donations directly shape the future of AD research and improve the
+          Donations directly shape the future of A.D. research and improve the
           lives of millions worldwide. Here are some organizations or funds to
           contribute to:
         </p>

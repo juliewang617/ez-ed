@@ -108,7 +108,7 @@ export default function Identifier() {
             <Link href="https://www.kaggle.com/datasets/riyaelizashaju/skin-disease-classification-image-dataset">
               Skin Disease Classification Image Dataset
             </Link>
-            ,
+            ,&nbsp;
             <Link href="https://www.kaggle.com/datasets/nayanchaure/acne-dataset">
               Acne Dataset
             </Link>

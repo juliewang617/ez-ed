@@ -53,27 +53,29 @@ export default function Questionaire() {
       container.style.setProperty("display", "none");
       results.style.setProperty("display", "flex");
       score_meaning.style.setProperty("display", "flex");
+
+      console.log(score);
       if (score <= 2) {
         results.innerHTML =
           "With a score of " +
           String(score) +
           ", You or your child likely has clear to almost clear eczema symptoms.";
-      } else if (3 <= score <= 7) {
+      } else if (score >= 3 && score <= 7) {
         results.innerHTML =
           "With a score of " +
           String(score) +
           ", You or your child likely has signs of mild eczema.";
-      } else if (8 <= score <= 16) {
+      } else if (score >= 8 && score <= 16) {
         results.innerHTML =
           "With a score of " +
           String(score) +
           ", You or your child likely has signs of moderate eczema.";
-      } else if (17 <= score <= 24) {
+      } else if (score >= 17 && score <= 24) {
         results.innerHTML =
           "With a score of " +
           String(score) +
           ", You or your child likely has signs of severe eczema.";
-      } else if (25 <= score <= 28) {
+      } else if (score >= 25 && score <= 28) {
         results.innerHTML =
           "With a score of " +
           String(score) +

@@ -77,7 +77,7 @@ export default function Home() {
             <h1 className="white-h1">Get Help</h1>
             <p className="actions-p">
               Identify atopic dermatitis using AI or take a questionnaire to
-              better understand symptoms.
+              better understand your symptoms.
             </p>
           </div>
           <div
@@ -120,7 +120,7 @@ export default function Home() {
             twice as likely to develop AD as white children.
           </p>
           <p>
-            Moreover, Low-income individuals, including refugees and migrants,
+            Moreover, low-income individuals, including refugees and migrants,
             often experience aggravated symptoms due to poor living conditions
             and limited access to healthcare.
           </p>
@@ -154,10 +154,10 @@ export default function Home() {
 
           <p>
             Besides using our tools, individuals impacted by atopic dermatitis
-            can better understand their symptoms and follow various at-home
-            treatments to treat their condition. Please note that these tools
-            should not act as replacement for visiting a healthcare professional
-            if you are able to.
+            can also better understand their symptoms by following various
+            at-home treatments to treat their condition. Please note that these
+            tools should not act as replacement for visiting a healthcare
+            professional if you are able to.
           </p>
 
           <div
@@ -179,7 +179,7 @@ export default function Home() {
           <p>
             Despite atopic dermatitis's prevalence, more must be done in
             advancing research and treatment efforts to improve the lives of
-            millions worldwide. Specifically, improving health equity ensures
+            millions worldwide. Specifically, focusing on health equity ensures
             that everyone has access to effective resources to manage their
             condition.
           </p>
@@ -187,9 +187,9 @@ export default function Home() {
           <p>
             While the task at hand seems overwhelming, individual support is
             crucial towards making progress. From participating in clinical
-            trials to donating to organizations to simply becoming more aware of
-            atopic dermatitis and its health disparities, you can work towards a
-            better future for millions.
+            trials, to donating to organizations, to simply becoming more aware
+            of A.D. and its health disparities, you can work towards a better
+            future for millions.
           </p>
           <div
             className="give-help-btn"
