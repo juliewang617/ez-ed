@@ -104,7 +104,7 @@ export default function Identifier() {
 
           <p>
             The model was trained using over 10,000 images from the following
-            datasets:
+            datasets:&nbsp;
             <Link href="https://www.kaggle.com/datasets/riyaelizashaju/skin-disease-classification-image-dataset">
               Skin Disease Classification Image Dataset
             </Link>
