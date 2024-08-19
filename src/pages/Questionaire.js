@@ -91,7 +91,7 @@ export default function Questionaire() {
         <h1 className="page-title">Questionnaire</h1>
         <p className="page-caption">
           Take this short questionnaire, suitable for all ages, to learn more
-          about your systems.
+          about your symptoms.
         </p>
       </div>
 
